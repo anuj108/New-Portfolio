@@ -1,0 +1,78 @@
+.Intro {
+    background-color: ;
+    display: flex;
+  }
+  .Intro .left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: 0.5 1;
+    overflow: hidden;
+  }
+  .Intro .left .imgContainer {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+    border-radius: 2%;
+  }
+  .Intro .left .imgContainer img {
+    height: 100%;
+  }
+  .Intro .right {
+    flex: 0.5;
+    display: relative;
+  }
+  .Intro .right .wrapper {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Intro .right .wrapper h1 {
+    color: white;
+    font-size: 60px;
+    margin: 10px 0;
+  }
+  .Intro .right .wrapper h2 {
+    color: white;
+    font-size: 25px;
+  }
+  .Intro .right .wrapper h3 {
+    color: white;
+    font-size: 30px;
+  }
+  .Intro .right .wrapper h3 span {
+    font-size: inherit;
+    color: white;
+  }
+  .Intro .right .wrapper h3 .ityped-cursor {
+    animation: blink 1s infinite;
+  }
+  @keyframes blink {
+    .Intro .right .wrapper h3 50% {
+      opacity: 1;
+    }
+    .Intro .right .wrapper h3 100% {
+      opacity: 0;
+    }
+  }
+  .Intro .right a {
+    position: absolute;
+    bottom: 22px;
+    left: 70%;
+  }
+  .Intro .right a img {
+    width: 30px;
+    animation: arrowBlink 2s infinite;
+  }
+  @keyframes arrowBlink {
+    .Intro .right a 100% {
+      opacity: 0;
+    }
+  }
