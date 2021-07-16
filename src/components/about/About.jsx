@@ -24,7 +24,7 @@ export default function Work() {
         </div>
         <div className="right">
             <div className="wrapper">
-                <img src="assets/sleeping.png" alt="" />
+                <img src="assets/img.png" alt="" />
             </div>
             {/* <a href="#education"><img src="assets/down.png" alt="" /></a> */}
         </div>

@@ -1,4 +1,4 @@
-import "./portfolio.scss"
+import "./portfolio.css"
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import {

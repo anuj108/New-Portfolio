@@ -8,7 +8,7 @@
   position: relative;
   top: 70px;
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
   scrollbar-width: none;
 }
 .app .sections::-webkit-scrollbar {
@@ -17,5 +17,19 @@
 .app .sections > * {
   width: 100vw;
   height: calc(100vh - 70px);
-  scroll-snap-align: start;
+}
+/* @media (hover: none) and (pointer: coarse) {
+  html {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+
+  .container {
+    height: auto;
+    display: contents;
+    scroll-snap-type: unset;
+  }
+} */
+@media (max-width: 535px) {
+
 }
