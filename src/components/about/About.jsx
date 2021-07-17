@@ -12,7 +12,7 @@ export default function Work() {
                             ABOUT
                         </div>
                         <div className="content">
-                            HELLO THERE, MY NAME IS ANUJ AND CURRENTLY I'M PURSUING MY BTECH FROM ABES ENGINEERING COLLEGE OR BAKI BAAD ME BTATA HU 
+                            HELLO THERE, MY NAME IS ANUJ AND CURRENTLY I'M PURSUING MY BTECH FROM ABES ENGINEERING COLLEGE OR BAKI BAAD ME BTATA HU ABHI KE LIYE KUCH BHI LIKHKE CONTENT BDHA DETA HU BAAD ME UPDATE KRDUGA HEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHE
                             </div>
                         <button className="btn">RESUME</button>
                     </div>

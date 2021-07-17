@@ -28,12 +28,12 @@
   justify-content: center;
   align-items: center;
   width: 80%;
+  height: 100%;
 }
 .About .left .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60%;
 }
 .About .left .container .card {
   width: 80%;
@@ -45,10 +45,9 @@
 }
 
 .About .left .container .card .center {
-  padding: 10px;
   background-color: white;
   border-radius: 10px;
-  height: 93%;
+  height: 100%;
 }
 .About .left .container .card .center .top {
   font-family: "Montserrat", sans-serif;
@@ -70,12 +69,13 @@
   letter-spacing: 1.5px;
   cursor: pointer;
   display: flex;
-  margin: auto;
+  margin: 5% auto;
 }
 
 .About .right {
   display: flex;
   justify-content: center;
+  width: 35%;
   align-items: center;
 }
 .About .right .wrapper {
@@ -85,6 +85,46 @@
 }
 .About .right img {
   border-radius: 100px;
-  width: 50%;
-  height: 50%;
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 1235px) {
+  .About .left .container .card .center .content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 10px 20px;
+  }
+  .About {
+    flex-direction: column;
+  }
+  .About .left {
+    height: 60%;
+    width: 100%;
+  }
+  .about .left .container {
+    margin: 20px;
+    height: 100%;
+  }
+  .About .left .container .card .center .btn {
+    background-color: #3d3d3d;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    display: flex;
+    margin: 5% auto;
+  }
+  .About .right{
+    width: 100%;
+    height: 40%;
+  }
+  .About .right .wrapper{
+    width: 70%;
+    height: 100%;
+  }
+
 }

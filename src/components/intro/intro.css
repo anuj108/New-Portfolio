@@ -80,7 +80,7 @@
 
 @media (max-width: 990px) {
   .Intro .left .imgContainer {
-    height: 70%;
+    height: 50%;
     width: 100%;
   }
   .Intro .left .imgContainer img {
@@ -91,7 +91,7 @@
     font-size: 30px;
     margin: 10px 0;
   }
-  .Intro .right .wrapper h2{
+  .Intro .right .wrapper h2 {
     font-size: 12.5px;
   }
   .Intro .right .wrapper h3 {
@@ -99,14 +99,12 @@
   }
 }
 
-@media (max-width: 535px) 
-{
+@media (max-width: 775px) {
   .Intro .left .imgContainer {
-    height: 40%;
+    height: 35%;
     width: 100%;
-    border-radius: 800px;
+    border-radius: 300px;
   }
-  .Intro .left .imgContainer img{
-    
+  .Intro .left .imgContainer img {
   }
 }
