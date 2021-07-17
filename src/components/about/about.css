@@ -1,91 +1,130 @@
-.About{
-    background: url(./—Pngtree—blue\ pink\ two-color\ geometric\ background_1288686.JPG) no-repeat center center/cover;    
-    display: flex;
-
+.About {
+  background: url(./—Pngtree—blue\ pink\ two-color\ geometric\ background_1288686.JPG)
+    no-repeat center center/cover;
+  display: flex;
+  scroll-snap-align: start;
 }
+
 .About .right a {
-    position: relative;
-    bottom: 22px;
-    left: 70%;
-  }
-  .About .right a img {
-    width: 300px;
-    color: black;
-    animation: arrowBlink 2s infinite;
-  }
-  .About .top{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: black;
-      padding: 30px;
-      margin-top: 10px;
-  }
-  .About .left  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-  }
-  .About .left .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-  }
-  .About .left .container .card {
-    width: 80%;
-    height: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px -8px black;
-    display: flex;
-    justify-content: space-around;
-    
-  }
+  position: relative;
+  bottom: 22px;
+  left: 70%;
+}
+.About .right a img {
+  width: 300px;
+  color: black;
+  animation: arrowBlink 2s infinite;
+}
+.About .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 30px;
+  margin-top: 10px;
+}
+.About .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+.About .left .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.About .left .container .card {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -8px black;
+  display: flex;
+  justify-content: space-around;
+}
 
-  .About .left .container .card .center {
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
-    height: 100%;
-  }
-  .About .left .container .card .center .top{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-  }
-  .About .left .container .card .center .content{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+.About .left .container .card .center {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+}
+.About .left .container .card .center .top {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.About .left .container .card .center .content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px 40px;
+}
+.About .left .container .card .center .btn {
+  background-color: #3d3d3d;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  display: flex;
+  margin: 5% auto;
+}
+
+.About .right {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  align-items: center;
+}
+.About .right .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.About .right img {
+  border-radius: 100px;
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 1235px) {
+  .About .left .container .card .center .content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
     font-weight: 500;
-    padding: 20px 40px;
-
+    padding: 10px 20px;
   }
-  .About .left .container .card  .center .btn{
-      background-color: #3d3d3d;
-      padding: 12px 40px;
-      text-decoration: none;
-      color: #fff;
-      font-size: 25px;
-      letter-spacing: 1.5px;
-      cursor: pointer;
-      display: flex;
-      margin: auto;
+  .About {
+    flex-direction: column;
+  }
+  .About .left {
+    height: 60%;
+    width: 100%;
+  }
+  .about .left .container {
+    margin: 20px;
+    height: 100%;
+  }
+  .About .left .container .card .center .btn {
+    background-color: #3d3d3d;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    display: flex;
+    margin: 5% auto;
+  }
+  .About .right{
+    width: 100%;
+    height: 40%;
+  }
+  .About .right .wrapper{
+    width: 70%;
+    height: 100%;
   }
 
-
-.About .right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.About .right .wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.About .right img{
-    border-radius: 1000px;
-    width: 80%;
-    height: 80%;
 }
