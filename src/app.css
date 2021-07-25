@@ -4,12 +4,10 @@
 .app .sections {
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: black;
   position: relative;
   top: 70px;
   scroll-behavior: smooth;
-  /* scroll-snap-type: y mandatory; */
-  scrollbar-width: none;
+  scroll-snap-type: y mandatory;
 }
 .app .sections::-webkit-scrollbar {
   display: none;
@@ -17,6 +15,8 @@
 .app .sections > * {
   width: 100vw;
   height: calc(100vh - 70px);
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
 }
 /* @media (hover: none) and (pointer: coarse) {
   html {
@@ -31,5 +31,4 @@
   }
 } */
 @media (max-width: 535px) {
-
 }

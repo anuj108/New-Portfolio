@@ -82,16 +82,14 @@
     display: none;
   }
 }
-@media (max-width: 535px) 
-{
+@media (max-width: 535px) {
   .Topbar .wrapper .left .logo {
     font-size: 20px;
     font-weight: 700;
   }
-  .Topbar{
-
+  .Topbar {
   }
-  .Topbar .wrapper .right .hamburger{
+  .Topbar .wrapper .right .hamburger {
     width: 30px;
     height: 19px;
   }

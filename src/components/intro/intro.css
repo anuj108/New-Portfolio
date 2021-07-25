@@ -1,7 +1,8 @@
 .Intro {
-  background-color: ;
+  background-color: black;
   display: flex;
   scroll-snap-align: start;
+  
 }
 .Intro .left {
   align-items: center;
