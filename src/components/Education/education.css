@@ -1,54 +1,117 @@
 .Education {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    scroll-snap-align: start;
-  }
-  .Education h1 {
-    font-size: 50px;
-  }
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.Education {
+  background: url(./pexels-moose-photos-1037992.jpg)
+    no-repeat center center/cover;
+  display: flex;
+}
+.Education h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+.Education .container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Education .container .card {
+  width: 15%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -8px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  padding: 20px;
+  transition: all 1s ease;
+}
+.Education .container .card:hover {
+  transform: scale(1.2);
+}
+.Education .container .card .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.Education .container .card .top img.user {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+.Education .container .card .center {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.Education .container .card .center h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.Education .container .card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.Education .container .card .bottom h3 {
+  margin-bottom: 5px;
+}
+.Education .container .card .bottom h4 {
+  color: grey;
+}
+.Education .top1 {
+  padding: 50px;
+  overflow: hidden;
+}
+@media (max-width: 1115px) {
   .Education .container {
     width: 100%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    height: 50%;
+  }
+  .Education .container .card .center h3 {
+    font-size: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .Education .container {
+    display: contents;
   }
   .Education .container .card {
-    width: 20%;
-    height: 70%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px -8px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  .Education .container .card .top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 70%;
   }
   .Education .container .card .top img.user {
-    height: 70%;
-    width: 70%;
-    border-radius: 50%;
-    object-fit: cover;
+    height: 80%;
+    width: 17%;
+  }
+  .Education .container .card .top {
+  }
+  .Education h1 {
+    font-size: 21px;
+    padding: 5px;
+  }
+  .Education h2 {
+    font-size: 10px;
+    overflow: hidden;
+  }
+  .Education .container .card .center h3 {
+    font-size: 7px;
+    overflow: hidden;
   }
   .Education .container .card .center {
-    padding: 10px;
-    background-color: #f8dfdf;
-    border-radius: 10px;
+    overflow: hidden;
   }
-  .Education .container .card .bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Education .container .card .bottom h3 {
-    margin-bottom: 5px;
-  }
-  .Education .container .card .bottom h4 {
-    color: grey;
-  }
+}

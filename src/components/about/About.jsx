@@ -12,7 +12,8 @@ export default function Work() {
                             ABOUT
                         </div>
                         <div className="content">
-                            HELLO THERE, MY NAME IS ANUJ AND CURRENTLY I'M PURSUING MY BTECH FROM ABES ENGINEERING COLLEGE OR BAKI BAAD ME BTATA HU ABHI KE LIYE KUCH BHI LIKHKE CONTENT BDHA DETA HU BAAD ME UPDATE KRDUGA HEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHE
+                        HELLO THERE, I am an ordinary human who was named as ANUJ SHAKYA 19 years back in 2002 . 
+I have successfully survived these 19 years but now I am pursuing B-Tech CSE degree from Abes Engineering College, Ghaziabad (2020-2024) . Talking about my skills -- and at last talking about my hobbies I love listening music and many more things (I can't remember right now).
                             </div>
                         <button className="btn">RESUME</button>
                     </div>

@@ -1,5 +1,5 @@
 import "./topbar.css"
-import {Mail} from "@material-ui/icons"
+// import {Mail} from "@material-ui/icons"
 // import LaptopChromebookRoundedIcon from '@material-ui/icons/LaptopChromebookRounded';
 export default function Topbar({menuOpen, setMenuOpen}) {
     return (
@@ -21,7 +21,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                         {/* <Mail className="icon"/> */}
-                        <a href="#portfolio">PROJECTS</a>
+                        <a href="#projects">PROJECTS</a>
                     </div>
                     <div className="itemContainer">
                         {/* <Mail className="icon"/> */}

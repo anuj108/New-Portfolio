@@ -1,7 +1,7 @@
 import "./intro.css"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
-import Aos from "aos";
+// import Aos from "aos";
 export default function Intro() {
     const textRef = useRef();
 

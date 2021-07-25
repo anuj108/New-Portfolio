@@ -3,11 +3,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url(—Pngtree—blue\ and\ white\ two-color\ abstract_1444227.png)
+    no-repeat center center/cover;
   scroll-snap-align: start;
 }
 .Portfolio h1 {
-  font-size: 50px;
-}
+  font-family: 'poppins', sans-serif;
+  font-size: 36;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-color: white;
+  }
+  .Portfolio .top1{
+    padding: 27px;
+  }
 .Portfolio ul {
   margin: 10px;
   padding: 0;
@@ -34,6 +43,8 @@
   position: relative;
   transition: all 1s ease;
 }
+.Portfolio .container .item :hover {
+}
 .Portfolio .container .item h3 {
   position: absolute;
   font-size: 20px;
@@ -50,4 +61,10 @@
 .Portfolio .container .item:hover img {
   opacity: 0.2;
   z-index: 0;
+}
+@media (max-width: 535px) {
+  .Portfolio .container .item{
+    width: 74%;
+    height:100%;
+  }
 }
