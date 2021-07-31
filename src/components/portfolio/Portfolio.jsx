@@ -4,7 +4,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import {
     frontendPortfolio,
     javascriptPortfolio,
-    graphicPortfolio,
+    // graphicPortfolio,
 } from "../../data";
 export default function Portfolio() {
     const [selected,setSelected] = useState("frontend");
@@ -18,10 +18,10 @@ export default function Portfolio() {
             id: "javascript",
             title: "Javascript Projects",
         },
-        {
-            id: "design",
-            title: "Graphic Designing",
-        },
+        // {
+        //     id: "design",
+        //     title: "Graphic Designing",
+        // },
     ];
     useEffect(()=>{
 
@@ -33,11 +33,11 @@ export default function Portfolio() {
             case "javascript":
                 setData(javascriptPortfolio);
                 break;
-                case "design":
-                setData(graphicPortfolio);
-                break;
+                // case "design":
+                // setData(graphicPortfolio);
+                // break;
             default:
-                setData(graphicPortfolio);
+                setData(frontendPortfolio);
 
 
         }
@@ -45,6 +45,7 @@ export default function Portfolio() {
     },[selected]);
     return (
         <div className="Portfolio" id="projects">
+            <hr />
             <div className="top1">
             <h1>PROJECTS</h1>
             </div>

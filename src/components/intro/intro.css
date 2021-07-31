@@ -1,7 +1,6 @@
 .Intro {
   background-color: black;
   display: flex;
-  scroll-snap-align: start;
   
 }
 .Intro .left {

@@ -3,11 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  scroll-snap-align: start;
 }
 .Education {
-  background: url(./pexels-moose-photos-1037992.jpg)
-    no-repeat center center/cover;
+  background: url(./pexels-moose-photos-1037992.jpg) no-repeat center
+    center/cover;
   display: flex;
 }
 .Education h1 {
@@ -92,10 +91,11 @@
   }
   .Education .container .card {
     width: 70%;
+    margin: 5px;
   }
   .Education .container .card .top img.user {
     height: 80%;
-    width: 17%;
+    width: 25%;
   }
   .Education .container .card .top {
   }
