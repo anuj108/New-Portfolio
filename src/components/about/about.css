@@ -62,13 +62,16 @@
 .About .left .container .card .center .btn {
   background-color: #3d3d3d;
   padding: 12px 40px;
+  
+  cursor: pointer;
+  display: flex;
+  margin: 5% auto;
+}
+.About .left .container .card .center .btn a{
   text-decoration: none;
   color: #fff;
   font-size: 25px;
   letter-spacing: 1.5px;
-  cursor: pointer;
-  display: flex;
-  margin: 5% auto;
 }
 
 .About .right {
@@ -109,13 +112,16 @@
   .About .left .container .card .center .btn {
     background-color: #3d3d3d;
     padding: 6px 20px;
+   
+    cursor: pointer;
+    display: flex;
+    margin: 5% auto;
+  }
+  .About .left .container .card .center .btn a{
     text-decoration: none;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.75px;
-    cursor: pointer;
-    display: flex;
-    margin: 5% auto;
   }
   .About .right {
     width: 100%;

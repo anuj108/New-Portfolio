@@ -1,31 +1,28 @@
-.contact {
+.Contact {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(./pexels-daniel-putzer-633409.jpg)
-    no-repeat center center/cover;
-    width: 100%;
-    height: calc(100vh - 70px);
-    position: relative;
-    top: 70px;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+  background: url(./pexels-daniel-putzer-633409.jpg) no-repeat center
+    center/cover;
+  /* width: 100%; */
+  /* position: relative; */
 }
-.contact .wrapper {
+.Contact .wrapper {
   width: 720px;
   background-color: white;
   border-radius: 10px;
 }
-.contact .wrapper h1 {
+.Contact .wrapper h1 {
   font-size: 22px;
   font-weight: 600;
   padding: 20px 30px;
   border-bottom: 1px solid #bfbfbf;
 }
-.contact .wrapper form {
-  margin: 35px 30px;
+.Contact .wrapper form {
+  margin: 31px 20px 0px 20px;
 }
-.contact .wrapper form .dbl-field {
+.Contact .wrapper form .dbl-field {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -110,6 +107,9 @@ form .button-area {
   .wrapper header {
     text-align: center;
   }
+  .Contact .wrapper {
+    width: 90%;
+  }
   .wrapper form {
     margin: 35px 20px;
   }
@@ -144,7 +144,26 @@ form .button-area {
     min-height: 80px;
     padding: 15px 20px;
   }
-  .contact .wrapper {
-    height: 90%;
+  .Contact .wrapper {
+    height: 70%;
   }
+}
+.Contact .wrapper .bottom {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+}
+.love {
+  color: white;
+  display: flex;
+  height: 10%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
 }
