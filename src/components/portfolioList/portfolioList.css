@@ -4,10 +4,13 @@
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
+  overflow: hidden;
+  color: white;
 }
 .portfolioList.active {
   background-color: black;
   color: white;
+
 }
 @media (max-width: 535px) {
   .portfolioList {

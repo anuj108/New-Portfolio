@@ -47,7 +47,7 @@ export default function Portfolio() {
         <div className="Portfolio" id="projects">
             <hr />
             <div className="top1">
-            <h1>PROJECTS</h1>
+            <h1 class="hover-underline-animation">PROJECTS</h1>
             </div>
             <ul>
                 {list.map(item=>(
@@ -57,8 +57,11 @@ export default function Portfolio() {
             <div className="container">
                 {data.map((d)=>(
                     <div className="item">
+                        <a href={d.link}>
                         <img src={d.img} alt="" />
                         <h3>{d.title}</h3>
+                        </a>
+                        
                     </div>
                 ))}
                 

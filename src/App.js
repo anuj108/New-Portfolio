@@ -7,7 +7,9 @@ import Contact from "./components/contact/Contact";
 import "./app.css";
 import Menu from "./components/menu/Menu";
 import { useState } from "react";
-function App() {
+// import AOS from 'aos'
+
+function App(props) {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
@@ -22,6 +24,7 @@ function App() {
       </div>
     </div>
   );
+  
 }
 
 export default App;
