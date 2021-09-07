@@ -5,14 +5,16 @@
   align-items: center;
 }
 .Education {
-  background: url(./pexels-moose-photos-1037992.jpg) no-repeat center
-    center/cover;
+  /* background: url(./pexels-moose-photos-1037992.jpg) no-repeat center
+    center/cover; */
+    background: linear-gradient(320deg, rgb(131, 207, 226),rgb(231, 114, 114));
   display: flex;
 }
 .Education h1 {
-  font-family: "poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 35px;
-  font-weight: 400;
+  word-spacing: 3px;
+  font-weight: 500;
 }
 .Education .container {
   width: 100%;
@@ -114,4 +116,27 @@
   .Education .container .card .center {
     overflow: hidden;
   }
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
 }
