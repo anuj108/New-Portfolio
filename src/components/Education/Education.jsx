@@ -9,7 +9,7 @@ export default function Education() {
   return (
     <div className="Education" id="education">
       <div className="top1">
-        <h1 class="hover-underline-animation">EDUCATION</h1>
+        <h1 className="hover-underline-animation">EDUCATION</h1>
       </div>
       <div className="container">
         <div className="card">

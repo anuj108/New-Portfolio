@@ -3,15 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(sai-kiran-anagani-5Ntkpxqt54Y-unsplash\ \(1\).jpg)
-    no-repeat center center/cover;
+  /* background: url(hehe.jpg)
+    no-repeat center center/cover; */
   /* scroll-snap-align: start; */
+  background: linear-gradient(216deg, rgb(131, 207, 226),rgb(231, 114, 114));
+
 }
 .Portfolio h1 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
     font-weight: 400;
-    color:aliceblue;
+    color:black;
     /* -webkit-text-stroke-width: 0.2px;
             -webkit-text-stroke-color: white; */
   }
@@ -37,8 +39,8 @@
   display: none;
 }
 .Portfolio .container .item a{
-  width: 396px;
-  height: 294px;
+  width: 376px;
+  height: 254px;
   border-radius: 20px;
   border: 1px solid white;
   margin: 4px 20px;
@@ -49,11 +51,18 @@
   position: relative;
   transition: all 1s ease;
 }
+.Portfolio .container .item a h3:hover{
+}
 .Portfolio .container .item :hover {
+  transform: rotateY(-180deg);
+  /* transform: rotateY(180deg); */
+  background-color: black;
 }
 .Portfolio .container .item a h3 {
   position: absolute;
   font-size: 20px;
+  z-index: -20;
+  transform: rotateY(180deg);
 }
 .Portfolio .container .item a img {
   width: 100%;
@@ -62,11 +71,14 @@
   z-index: 1;
 }
 .Portfolio .container .item :hover {
-  background-color: black;
+  
+  /* background-color: black; */
 }
-.Portfolio .container .item :hover img {
-  opacity: 0.2;
+.Portfolio .container .item img:hover  {
+  transform: rotateY(180deg);
+  opacity: 0;
   z-index: 0;
+
 }
 @media (max-width: 535px) {
   .Portfolio .container .item a {
@@ -78,6 +90,9 @@
   }
   .Portfolio .container .item a h3 {
     font-size: 10px;
+  }
+  .Portfolio h1{
+    color: black;
   }
 }
 .hover-underline-animation {
