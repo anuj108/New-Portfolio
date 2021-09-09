@@ -1,3 +1,4 @@
+
 .Education {
   background-color: white;
   display: flex;
@@ -7,14 +8,14 @@
 .Education {
   /* background: url(./pexels-moose-photos-1037992.jpg) no-repeat center
     center/cover; */
-    background: linear-gradient(320deg, rgb(131, 207, 226),rgb(231, 114, 114));
+  background: linear-gradient(320deg, rgb(131, 207, 226), rgb(231, 114, 114));
   display: flex;
 }
 .Education h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 35px;
-  word-spacing: 3px;
-  font-weight: 500;
+  font-size: 36px;
+    font-weight: 400;
+    color:black;
 }
 .Education .container {
   width: 100%;
@@ -124,7 +125,7 @@
 }
 
 .hover-underline-animation:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);

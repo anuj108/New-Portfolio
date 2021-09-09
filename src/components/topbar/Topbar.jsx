@@ -9,23 +9,23 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     <a href="#intro" className="logo" >AJ</a>
                     <div className="itemContainer">
                         {/* <LaptopChromebookRoundedIcon className="icon"/> */}
-                        <a href="#intro" class="hover-underline-animation">HOME</a>
+                        <a href="#intro" className="hover-underline-animation">HOME</a>
                     </div>
                     <div className="itemContainer">
                         {/* <Mail className="icon"/> */}
-                        <a href="#about" class="hover-underline-animation">ABOUT</a>
+                        <a href="#about" className="hover-underline-animation">ABOUT</a>
                     </div>
                     <div className="itemContainer">
                         {/* <Mail className="icon"/> */}
-                        <a href="#education" class="hover-underline-animation">EDUCATION</a>
+                        <a href="#education" className="hover-underline-animation">EDUCATION</a>
                     </div>
                     <div className="itemContainer">
                         {/* <Mail className="icon"/> */}
-                        <a href="#projects" class="hover-underline-animation">PROJECTS</a>
+                        <a href="#projects" className="hover-underline-animation">PROJECTS</a>
                     </div>
                     <div className="itemContainer">
                         {/* <Mail className="icon"/> */}
-                        <a href="#contact" class="hover-underline-animation">CONTACT</a>
+                        <a href="#contact" className="hover-underline-animation">CONTACT</a>
                     </div>
                 </div>
             
