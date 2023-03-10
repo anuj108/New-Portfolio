@@ -2,7 +2,6 @@
   background: url(./—Pngtree—blue\ pink\ two-color\ geometric\ background_1288686.JPG)
     no-repeat center center/cover;
   display: flex;
-  
 }
 
 .About .right a {
@@ -10,10 +9,14 @@
   bottom: 22px;
   left: 70%;
 }
+.About .right{
+  z-index: 10;
+}
 .About .right a img {
   width: 300px;
   color: black;
 }
+
 .About .top {
   display: flex;
   align-items: center;
@@ -22,6 +25,7 @@
   padding: 30px;
   margin-top: 10px;
 }
+
 .About .left {
   display: flex;
   justify-content: center;
@@ -29,11 +33,13 @@
   width: 80%;
   height: 100%;
 }
+
 .About .left .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .About .left .container .card {
   width: 80%;
   height: 80%;

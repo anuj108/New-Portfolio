@@ -18,7 +18,7 @@ function App(props) {
       <div className="sections">
         <Intro />
         <About />
-        <Education />
+        {/* <Education /> */}
         <Portfolio />
         <Contact />
       </div>
